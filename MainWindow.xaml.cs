@@ -76,5 +76,14 @@ namespace KeyLoger
                 MessageBox.Show("Пожалуйста, выберите строку для удаления.");
             }
         }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+            add ad = new add();
+            ad.Show();
+            var dict = new Dictionary<string, object>();
+            dict.Add("word", значение);
+            
+        }
     }
 }

@@ -18,7 +18,7 @@
                 <DataGridTextColumn Header="Password" Binding="{Binding PasswordMasked}"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Background="White" BorderBrush="White" Foreground="#DD000000"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Click="Add_Click" Background="White" BorderBrush="White" Foreground="#DD000000" Cursor="Hand"/>
         <Button Content="Скопировать" Name="CopyBTN" HorizontalAlignment="Center" Margin="0,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Click="CopyBTN_Click" Background="White" BorderBrush="White" Foreground="#DD000000"/>
         <Button Content="Удалить" Name="DeleteBTN" HorizontalAlignment="Left" Margin="622,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Click="DeleteBTN_Click" Background="White" BorderBrush="White" Foreground="#DD000000"/>
     </Grid>
