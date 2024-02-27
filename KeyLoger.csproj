@@ -97,6 +97,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="add.xaml.cs">
+      <DependentUpon>add.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQLiteManager.cs" />
+    <Compile Include="SQLiteProvider.cs" />
+    <Compile Include="UserData.cs" />
+    <Page Include="add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
