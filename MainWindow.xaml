@@ -3,19 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:KeyLoger"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/bg1.jpg" Opacity="0.2" Stretch="None"/>
+        </Grid.Background>
         <Label Content="KeyLoger" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="25" Width="72"/>
-        <DataGrid x:Name="MainGrid" AutoGenerateColumns="False" Margin="0,0,0,170">
+        <DataGrid x:Name="MainGrid" AutoGenerateColumns="False" Margin="0,0,0,170" Foreground="#DD000000">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Login" Binding="{Binding Login}"/>
                 <DataGridTextColumn Header="Password" Binding="{Binding PasswordMasked}"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" Height="44" Width="168"/>
-        <Button Content="Скопировать" Name="CopyBTN" HorizontalAlignment="Center" Margin="0,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Click="CopyBTN_Click"/>
-        <Button Content="Удалить" Name="DeleteBTN" HorizontalAlignment="Left" Margin="622,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Click="DeleteBTN_Click"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Background="White" BorderBrush="White" Foreground="#DD000000"/>
+        <Button Content="Скопировать" Name="CopyBTN" HorizontalAlignment="Center" Margin="0,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Click="CopyBTN_Click" Background="White" BorderBrush="White" Foreground="#DD000000"/>
+        <Button Content="Удалить" Name="DeleteBTN" HorizontalAlignment="Left" Margin="622,288,0,0" VerticalAlignment="Top" Height="44" Width="168" Click="DeleteBTN_Click" Background="White" BorderBrush="White" Foreground="#DD000000"/>
     </Grid>
 </Window>
