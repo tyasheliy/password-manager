@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|c:\\users\\tyasheliy\\desktop\\password-manager\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|solutionrelative:userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|c:\\users\\tyasheliy\\desktop\\password-manager\\sqlitemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|solutionrelative:sqlitemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|c:\\users\\tyasheliy\\desktop\\password-manager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|C:\\Users\\tyasheliy\\Desktop\\password-manager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|C:\\Users\\tyasheliy\\Desktop\\password-manager\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|C:\\Users\\tyasheliy\\Desktop\\password-manager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EEE2D66-CC00-4271-8BD0-A301BAE7E2B2}|KeyLoger.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyasheliy\\Desktop\\password-manager\\Data\\Providers\\SQLiteProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Providers\\SQLiteProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyasheliy\\Desktop\\password-manager\\Context\\UserData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Context\\UserData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyasheliy\\Desktop\\password-manager\\Data\\SQLiteManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\SQLiteManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 399,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\UserData.cs",
+              "RelativeDocumentMoniker": "UserData.cs",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\UserData.cs",
+              "RelativeToolTip": "UserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T18:49:49.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLiteManager.cs",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\SQLiteManager.cs",
+              "RelativeDocumentMoniker": "SQLiteManager.cs",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\SQLiteManager.cs",
+              "RelativeToolTip": "SQLiteManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T18:49:46.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-27T18:24:40.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SQLiteProvider.cs",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\Data\\Providers\\SQLiteProvider.cs",
+              "RelativeDocumentMoniker": "Data\\Providers\\SQLiteProvider.cs",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\Data\\Providers\\SQLiteProvider.cs",
+              "RelativeToolTip": "Data\\Providers\\SQLiteProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T18:20:18.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAtwE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T18:19:33.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\Context\\UserData.cs",
+              "RelativeDocumentMoniker": "Context\\UserData.cs",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\Context\\UserData.cs",
+              "RelativeToolTip": "Context\\UserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T18:18:26.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SQLiteManager.cs",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\Data\\SQLiteManager.cs",
+              "RelativeDocumentMoniker": "Data\\SQLiteManager.cs",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\Data\\SQLiteManager.cs",
+              "RelativeToolTip": "Data\\SQLiteManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T18:16:32.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-27T18:13:27.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tyasheliy\\Desktop\\password-manager\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-27T18:12:58.229Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
