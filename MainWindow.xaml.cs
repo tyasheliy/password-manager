@@ -1,4 +1,7 @@
-﻿using System;
+﻿using KeyLoger.Context;
+using KeyLoger.Data;
+using KeyLoger.Data.Providers;
+using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
@@ -7,6 +10,8 @@ namespace KeyLoger
 {
     public partial class MainWindow : Window
     {
+        private SQLiteManager _db = SQLiteProvider.Get();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -16,8 +21,9 @@ namespace KeyLoger
         private void FillGrid()
         {
             List<UserData> list = new List<UserData>();
-            SQLiteManager sQLiteManager = new SQLiteManager($"./db.db");
-            var data = sQLiteManager.ExecuteCustomQuery("SELECT word, password FROM Keywords");
+            
+            var data = _db.ExecuteCustomQuery("SELECT word, password FROM Keywords");
+
             foreach (Dictionary<string, object> item in data)
             {
                 string login = item["word"] as string;
@@ -52,8 +58,7 @@ namespace KeyLoger
             var selectedUser = MainGrid.SelectedItem as UserData;
             if (selectedUser != null)
             {
-                var sQLiteManager = new SQLiteManager("./db.db");
-                sQLiteManager.DeleteItem("Keywords", "word", selectedUser.Login);
+                _db.DeleteItem("Keywords", "word", selectedUser.Login);
 
                 // Удаление выбранного элемента из списка
                 var list = MainGrid.ItemsSource as List<UserData>;
