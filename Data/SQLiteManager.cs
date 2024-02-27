@@ -2,17 +2,11 @@
 using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace KeyLoger
+namespace KeyLoger.Data
 {
-    public class UserData
-    {
-        public string Login { get; set; }
-        public string Password { get; set; }
-
-        public string PasswordMasked => new string('*', Password.Length);
-    }
     public class SQLiteManager
     {
         private readonly string _connectionString;
